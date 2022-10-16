@@ -16,5 +16,6 @@ int main(void)
 {
 		putchar(reverse);
 }
+		putchar('\n');
 	return (0);
 }
