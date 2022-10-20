@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <math.h>
 
 /**
  * _abs - checks the absolute value of an integer
@@ -10,12 +12,10 @@
 
 int _abs(int x)
 {
-	if (x <= 0)
-	{
-		return (x);
-	}
+
+
+	if (c > 0)
+		return (c);
 	else
-	{
-		return (x * -1);
-	}
+		return (-c);
 }
