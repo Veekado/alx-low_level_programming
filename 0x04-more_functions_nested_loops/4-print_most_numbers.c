@@ -9,11 +9,12 @@
 
 void print_numbers(void)
 {
-        int z = 0;
+	int z = 0;
+	for (z = '0'; z <= '9'; z++)
 
-                for (z = '0'; z <= '9'; z++)
-        {
-                _putchar(z);
-        }
-                _putchar('\n');
+	{
+		if (z != '2' && z != '4')
+			_putchar(z);
+	}
+		_putchar('\n');
 }
