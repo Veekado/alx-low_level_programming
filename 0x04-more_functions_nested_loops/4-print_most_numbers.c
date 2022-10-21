@@ -10,6 +10,7 @@
 void print_numbers(void)
 {
 	int z = 0;
+
 	for (z = '0'; z <= '9'; z++)
 
 	{
