@@ -1,24 +1,23 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _strcat - joins two strings together
  * @dest: is a string
  * @src: is a string
  *
- * Return: A pointer to the resulting string
+ * Return: a pointer to dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	char i, j;
+	char *catenated = dest;
 
-	for (i = 0; dest[i] != '\0'; i++)
-	for (j = 0; src[j] != '\0'; j++)
+	while (*dest)
+		dest++;
 
-		dest[i + j] = src[j];
+	while (*src)
+		*dest++ = *src++;
 
-		dest[i + j] = '\0';
-			return (dest);
+	*dest = '\0';
+	return (catenated);
 }
-
