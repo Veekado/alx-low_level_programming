@@ -10,15 +10,14 @@
  *
  * Return: pointer to s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	char *string = s;
 
-	for (i = 0; i < n; i++)
+	while (n--)
 	{
-		s[i] = b;
+		*s = b;
+		s++;
 	}
-
-	return (s);
+	return (string);
 }
