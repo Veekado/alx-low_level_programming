@@ -10,7 +10,7 @@ int sqroot(int j, int k);
  */
 int _sqrt_recursion(int n)
 {
-	return (sqroot(1, n));
+	return (sqroot(0, n));
 }
 
 /**
@@ -27,5 +27,5 @@ int sqroot(int j, int k)
 	else if (j * j > k)
 		return (-1);
 	else
-		return (sqroot(j + 1, k));
+		return (sqroot(k, j + 1));
 }
