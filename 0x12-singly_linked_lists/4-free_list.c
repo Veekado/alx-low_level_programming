@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "list.h"
 
 /**
  * free_list - adds a new node at the end of the list_t list
