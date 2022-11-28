@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * *add_node - function to add node to start
  * @head: pointer to pointer of list_t struct type

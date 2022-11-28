@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * print_list - function to print node contents
  * @h: pointer to node struct
