@@ -1,4 +1,5 @@
-#include <main.h>
+#include "main.h"
+
 /**
  * leave_now - exits
  * @code: the exit case
